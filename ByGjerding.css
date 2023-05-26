@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2.7em;
+}
+
+h3 {
+    font-size: 1.7em;
+}
+
+p {
+    font-size: 1.25em;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 2em;
+    padding: 10px;
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+header {
+    border-bottom-width: 10px;
+    border-bottom-style: dashed;
+    border-bottom-color: black;
+}
+
+.byGjerding {
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+}
+
+.aboutMeH2 {
+    font-size: 2.7em;
+    padding-left: 10px;
+}
+
+#aboutMe {
+    display: flex;
+    margin: 30px;
+    min-height: 20px;
+}
+
+.imgRaven {
+    max-width: 300px;
+    height: auto;
+}
+
+.myProjectsH2 {
+    font-size: 2.7em;
+    padding-left: 10px;
+}
+
+#myProjects {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    min-height: 20px;
+}
+
+.Udemy {
+    max-width: 300px;
+    height: auto;
+}
+
+.LogoApp {
+    max-width: 300px;
+    height: auto;
+    margin: 20px;
+}
+
+.footer {}
